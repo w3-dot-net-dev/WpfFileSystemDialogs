@@ -13,16 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.FileSystem.Dialogs
+namespace WpfHostApplication
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
-    public partial class UserControl1 : UserControl
-    {
-        public UserControl1()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+		}
+	}
 }
